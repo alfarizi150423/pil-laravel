@@ -27,7 +27,6 @@
 </head>
 <body>
 
-<!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#">My Portfolio</a>
@@ -37,14 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- Hero Section -->
 <section class="hero">
     <div class="container">
         <h1>SELAMAT DATANG DI HALAMAN PORTOFOLIO TUGAS PBWL SAYA</h1>
@@ -53,7 +51,6 @@
     </div>
 </section>
 
-<!-- About Section -->
 <section id="about" class="py-5">
     <div class="container">
         <h2 class="text-center mb-4">About Me</h2>
@@ -61,11 +58,11 @@
     </div>
 </section>
 
-<!-- Portfolio Section -->
 <section id="portfolio" class="py-5 bg-light">
     <div class="container">
         <h2 class="text-center mb-4">Project Saya</h2>
         <div class="row">
+            <hr>
             <div class="col-md-4 mb-4">
                 <div class="card portfolio-item">
                     <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
@@ -97,7 +94,6 @@
     </div>
 </section>
 
-<!-- Footer -->
 <footer>
     <div class="container text-center">
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
