@@ -35,9 +35,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/portofolio">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/project">Projects</a></li>
             </ul>
         </div>
     </div>
@@ -46,7 +46,6 @@
 <section class="hero">
     <div class="container">
         <h1>SELAMAT DATANG DI HALAMAN PORTOFOLIO TUGAS PBWL SAYA</h1>
-        <p>SEBAGIAN TUGAS YANG SAYA KERJAKAN</p>
         <a href="#portfolio" class="btn btn-primary">Sedikit Tugas Yang saya Buat</a>
     </div>
 </section>

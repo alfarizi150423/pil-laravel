@@ -30,7 +30,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="/portofolio">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="/project">Projects</a></li>
             </ul>
         </div>
     </div>
@@ -38,8 +39,8 @@
 
 <section class="hero">
     <div class="container">
-        <h1>About Me</h1>
-        <p>Learn more about who I am and what I do</p>
+        <h1>PROFILE</h1>
+        <p>sedikit tentang saya</p>
     </div>
 </section>
 
@@ -50,20 +51,18 @@
                 <img src="https://via.placeholder.com/250" alt="Profile Picture" class="img-fluid rounded-circle mb-3">
             </div>
             <div class="col-md-8">
-                <h2>John Doe</h2>
-                <p>
-                    Hi, I'm John Doe, a passionate web developer with expertise in creating modern, responsive websites. 
-                    I specialize in front-end development with a strong focus on user experience. With over 5 years of 
-                    experience, I've worked on diverse projects ranging from small business websites to large-scale applications.
+                <h2>IBNU SAJALI ALFARIZI RANGKUTI</h2>
+                <p style="text-align: justify">
+                    Hai, saya <b>Ibnu Sajali Alfarizi Rangkuti</b>, seorang Mahasiswa yang belajar dalam membuat situs web yang modern dan responsif. Saat ini saya sedang belajar untuk membuat sebuah tampilan web sederhana, Tampilan web yang saya buat adalah tampilan web sederhana Portofolio.
                 </p>
-                <h4>Skills:</h4>
+                <h4>Skill:</h4>
                 <ul>
                     <li>HTML, CSS, JavaScript</li>
                     <li>Bootstrap, React, Vue.js</li>
                     <li>PHP, MySQL</li>
                 </ul>
-                <h4>Hobbies:</h4>
-                <p>Photography, Traveling, and Reading</p>
+                <h4>Keseharian:</h4>
+                <p>Gamming, Youtube, and Tiktok</p>
             </div>
         </div>
     </div>
@@ -73,8 +72,8 @@
     <div class="container text-center">
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
         <div>
-            <a href="#" class="text-white me-3">Twitter</a>
-            <a href="#" class="text-white">LinkedIn</a>
+            <a href="#" class="text-white me-3">INSTAGRAM</a>
+            <a href="#" class="text-white">FACEBOOK</a>
         </div>
     </div>
 </footer>
