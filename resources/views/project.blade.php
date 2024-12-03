@@ -23,7 +23,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <a class="navbar-brand" href="/portofolio">My Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +39,8 @@
 
 <section class="hero">
     <div class="container">
-        <h1>TUGAS PEEMBUATAN WEBSITE</h1>
+        <h1>TUGAS PEMBUATAN WEBSITE</h1>
+        <p>Daftar project yang telah saya kerjakan selama belajar.</p>
     </div>
 </section>
 
@@ -78,7 +79,7 @@
                     <tr>
                         <td>3</td>
                         <td>QUIZ PBWD</td>
-                        <td>Membuat website pemutaran lagu menggunakanmenggunakan bahasa pemrograman PHP versi 8</td>
+                        <td>Membuat website pemutaran lagu menggunakan bahasa pemrograman PHP versi 8</td>
                         <td>Pemrograman Berbasis Web Dasar</td>
                         <td>21-06-2024</td>
                         <td>Completed</td>
@@ -109,6 +110,42 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Tambah Project Baru</h2>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form action="/submit_project" method="POST">
+                    <div class="mb-3">
+                        <label for="projectName" class="form-label">Nama Project</label>
+                        <input type="text" class="form-control" id="projectName" name="project_name" placeholder="Masukkan nama project" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="projectDesc" class="form-label">Deskripsi Project</label>
+                        <textarea class="form-control" id="projectDesc" name="project_desc" rows="3" placeholder="Masukkan deskripsi project" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="course" class="form-label">Mata Kuliah</label>
+                        <input type="text" class="form-control" id="course" name="course" placeholder="Masukkan mata kuliah terkait" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="completionDate" class="form-label">Tanggal</label>
+                        <input type="date" class="form-control" id="completionDate" name="completion_date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Status</label>
+                        <select class="form-select" id="status" name="status" required>
+                            <option value="Completed">Completed</option>
+                            <option value="Ongoing">Ongoing</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Tambah Project</button>
+                </form>
+            </div>
         </div>
     </div>
 </section>

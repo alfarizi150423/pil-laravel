@@ -67,7 +67,7 @@
                     <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">Description of Project 1.</p>
+                        <a href="/profile" class="btn btn-primary">Description of Project 1.</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title">Project 2</h5>
-                        <p class="card-text">Description of Project 2.</p>
+                        <a href="/profile" class="btn btn-primary">Description of Project 1.</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                     <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 3">
                     <div class="card-body">
                         <h5 class="card-title">Project 3</h5>
-                        <p class="card-text">Description of Project 3.</p>
+                        <a href="/profile" class="btn btn-primary">Description of Project 1.</a>
                     </div>
                 </div>
             </div>
