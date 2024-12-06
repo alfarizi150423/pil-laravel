@@ -14,12 +14,18 @@
             background-position: center;
             height: 500px;
         }
+        
         .hero-text {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             color: white;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
         }
     </style>
 </head>
@@ -46,9 +52,11 @@
         <div class="container">
             <h2 class="text-center mb-4">Proyek Terbaru</h2>
             <div class="row">
+                <!-- Menampilkan proyek dari database -->
                 @foreach ($projects as $project)
                     <div class="col-md-4 mb-4">
                         <div class="card shadow-sm">
+                            <!-- Gambar proyek -->
                             <img src="{{ asset('storage/'.$project->image) ?? 'https://via.placeholder.com/350x200' }}" class="card-img-top" alt="{{ $project->title }}">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $project->title }}</h5>
