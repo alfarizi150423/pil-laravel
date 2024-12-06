@@ -2,14 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/portofolio', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\PortfolioController;
 
-Route::get('/profile', function () {
-    return view('profile');
-});
-
-Route::get('/project', function () {
-    return view('project');
-});
+Route::get('/portfolio', [PortfolioController::class, 'index']);
