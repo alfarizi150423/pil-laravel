@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Portofolio Saya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
-<body class="bg-light">
-    <header class="bg-dark text-white p-3">
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <h1>Website Portofolio</h1>
-            <nav>
-                <a href="{{ route('portfolios.index') }}" class="text-white">Home</a> |
-                <a href="{{ route('portfolios.create') }}" class="text-white">Tambah Portofolio</a>
-            </nav>
+            <a class="navbar-brand" href="{{ route('portfolios.index') }}">Portofolio Saya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('portfolios.index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('portfolios.create') }}">Tambah Portofolio</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </header>
-    <main class="container py-4">
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container py-5">
         @yield('content')
     </main>
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; {{ date('Y') }} Website Portofolio</p>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; {{ date('Y') }} Portofolio Saya | Dibuat dengan Laravel dan Bootstrap</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
